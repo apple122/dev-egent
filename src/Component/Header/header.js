@@ -14,11 +14,8 @@ const Header = () => {
                 break;
             case 1: setMenu(0)
                 break;
-
         }
     }
-
-    console.log(MenuState)
 
     return (
         <div>
@@ -55,7 +52,7 @@ const Header = () => {
             </header>
             <ul class='nav-menu container' onClick={OverMenu}>
                 <li class='w-100'>
-                    <a href="#menu" class='title-tack-menu'><img src={menu} class='icon ' /> AP Royal280 คือเว็บไชต์พนันออนไลน์ที่ดีที่สุด</a>
+                    <a href="#menu" class='title-tack-menu'><img src={menu} class='icon' /> AP Royal280 คือเว็บไชต์พนันออนไลน์ที่ดีที่สุด</a>
                 </li>
             </ul>
             <ul class={`ul-bar container-list ${MenuState == 0 ? 'menu-hidden' : ''}`}>
