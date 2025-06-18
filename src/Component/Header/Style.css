@@ -1,0 +1,105 @@
+.container {
+    width: auto;
+    padding: 0.2% 5.5% 0.2% 5.5%;
+    /* border-bottom: 1px solid #fcb900; */
+}
+
+a {
+    color: aliceblue;
+    /* text-decoration: underline; */
+    text-decoration: none;
+}
+
+.layout-header {
+    transition: 1s;
+}
+
+.title-tack {
+    padding: 0.5%;
+}
+.title-tack-block {
+    padding: 1%;
+    font-size: 20px;
+}
+
+.title-tack:hover {
+    background-color: #131313;
+    padding: 2%;
+}
+
+.title-tack-menu {
+    padding: 2%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 23px;
+    padding-right: 15px;
+}
+
+.positions-absolute {
+    position: absolute;
+}
+
+.btn-cottom {
+    font-size: 20px;
+    width: 150px;
+    padding: 3% 5% 3% 5%;
+    margin-left: 10px;
+    border-radius: 14px;
+    border: none;
+    color: black;
+    background-color: transparent;
+    fill: #000000;
+    color: #000000;
+    /* opacity: 0.8; */
+    transition: 0.3s;
+    background-image: linear-gradient(75deg, #FDE08D 0%, #DF9F28 100%);
+}
+
+.btn-cottom:hover {
+    background-image: linear-gradient(100deg, #DF9F28 0%, #FDE08D 100%);
+    opacity: 1;
+}
+
+.nav-title {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0% 5.5% 0% 5.5%;
+    border-bottom: 1px solid #fcb900;
+    background-size: 150% 100%;
+    background-position: 0px 0px;
+    background-image: linear-gradient(0deg, #131313 50%, rgba(255, 255, 255, 0.315) 100%);
+}
+
+.title-text-boder {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgb(41, 91, 136);
+    /* height: 100%; */
+    width: 100%;
+}
+
+.active-ul-bar {
+    background-image: linear-gradient(75deg, #FDE08D 0%, #DF9F28 100%);
+    color: #000000;
+}
+
+.ul-bar-dis {
+    /* width: 100%; */
+    /* border-bottom: 1px solid #fcb900; */
+    border-top: 1px solid #fcb900;
+    /* padding: 0% 5.5% 0% 5.5%; */
+    background-size: 150% 100%;
+    background-position: 0px 0px;
+    background-image: linear-gradient(0deg, #131313 50%, rgba(255, 255, 255, 0.315) 100%);
+}
+
+.menu-hidden {
+    display: none;
+}

@@ -1,0 +1,9 @@
+.image-over-1 {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.image-over-0 {
+    opacity: 0;
+    transition: 0.3s;
+}

@@ -1,0 +1,49 @@
+.text-list-news {
+    color: white;
+}
+
+.list-News {
+    color: white;
+    font-size: 22px;
+}
+
+span {
+    font-size: 24px;
+}
+
+.cold {
+    /* color: #fcb900; */
+    /* background: #8F6B29; */
+    /* background: linear-gradient(139deg,rgba(143, 107, 41, 1) 0%, rgba(253, 224, 141, 1) 50%, rgba(223, 159, 40, 1) 100%); */
+    background: -webkit-linear-gradient(#8F6B29, #FDE08D, #DF9F28);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.div-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-cover-list {
+    width: 100%;
+    object-fit: cover;
+}
+
+.news-list-game {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boder-16 {
+    border-radius: 16px;
+}
+
+.list-ul {
+    list-style-position: outside;
+    padding: 0% 2% 0% 2%;
+    font-size: 22px;
+}

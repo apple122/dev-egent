@@ -1,0 +1,19 @@
+@media screen and (min-width: 800px) {
+    .news-list-span {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .div-one,
+    .div-two {
+        width: auto;
+        overflow: hidden;
+        padding: 0% 2% 0% 2%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .news-list-span {
+        padding: 0% 2% 0% 2%;
+    }
+}
